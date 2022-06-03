@@ -23,6 +23,7 @@
     padding-bottom: 20px;
     border: 1px solid #ccc;
     text-align: center;
+    margin-top: 15px;
 }
 
 .input-text{
@@ -37,6 +38,24 @@
 
 label { 
     display: none;
+}
+
+.lbl-valor{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.text{
+    margin-top: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.motion {
+    visibility: visible;
+    opacity: 1;
 }
 @media screen and (max-width: 700px) {
     .side-content {
